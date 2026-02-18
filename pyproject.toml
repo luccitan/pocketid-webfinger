@@ -1,0 +1,31 @@
+[project]
+    name = "pocketid-webfinger"
+    version = "0.1.0"
+    description = "FastAPI app to proxy a Webfinger endpoint with Pocket ID OIDC provider in mind"
+    license = "MIT"
+    readme = "README.md"
+    requires-python = ">=3.14"
+    authors = [{ name = "Tanguy LUCCI", email = "<tanguylucci@protonmail.com"}]
+    maintainers = [{ name = "Tanguy LUCCI", email = "<tanguylucci@protonmail.com"}]
+    keywords = [
+        "fastapi",
+        "pocketid",
+        "oidc",
+        "webfinger",
+    ]
+
+    dependencies = [
+        "fastapi>=0.129.0",
+        "uvicorn>=0.41.0",
+    ]
+
+    [project.urls]
+        homepage = "https://github.com/luccitan/pocketid-webfinger"
+        repository = "https://github.com/luccitan/pocketid-webfinger"
+        documentation = "https://github.com/luccitan/pocketid-webfinger"
+
+[dependency-groups]
+    dev = [
+        "httpx>=0.28.1",
+        "pytest>=9.0.2",
+]
