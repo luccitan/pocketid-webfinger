@@ -1,2 +1,1 @@
 # Pocket ID Webfinger proxy
-
