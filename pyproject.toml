@@ -1,7 +1,7 @@
 [project]
     name = "pocketid-webfinger"
     version = "0.1.0"
-    description = "FastAPI app to proxy a Webfinger endpoint with Pocket ID OIDC provider in mind"
+    description = "FastAPI app acting as Webfinger endpoint with Pocket ID OIDC provider in mind"
     license = "MIT"
     readme = "README.md"
     requires-python = ">=3.14,<3.15"
