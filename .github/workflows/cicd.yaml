@@ -1,4 +1,4 @@
-name: Python app CICD
+name: CICD
 
 on:
   pull_request:
