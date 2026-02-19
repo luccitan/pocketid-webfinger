@@ -2,6 +2,8 @@
 #   https://github.com/astral-sh/uv-docker-example/blob/main/Dockerfile
 FROM ghcr.io/astral-sh/uv:python3.14-trixie-slim
 
+RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
+
 RUN groupadd --system --gid 999 nonroot \
  && useradd --system --gid 999 --uid 999 --create-home nonroot
 
